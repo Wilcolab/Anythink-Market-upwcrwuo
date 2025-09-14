@@ -1,12 +1,18 @@
 <html>
   <head>
     <title>Calculator</title>
-    <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="default.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="icons.svg" as="image">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <script src="client.js"></script>
   </head>
   <body onLoad="setValue(0)">
     <div class="container">
+      <!-- SVG icons sprite -->
+      <div style="display:none"> 
+        <!--#include file="icons.svg" -->
+      </div>
       <div id="results">
         <div id="result"><span class="digit0">0</span></div>
       </div>
@@ -17,39 +23,39 @@
         <div class="calculator">
           <div class="calculator-buttons">
             <button class="btn span-2"></button>
-            <button class="btn" onClick="clearPressed()">C</button>
-            <button class="btn" onClick="clearPressed()">CE</button>
+            <button class="btn" onClick="clearPressed()"><svg width="20" height="20"><use href="icons.svg#icon-backspace"/></svg></button>
+            <button class="btn" onClick="clearPressed()"><svg width="20" height="20"><use href="icons.svg#icon-backspace"/></svg></button>
 
             <button class="btn" onClick="numberPressed(7)">7</button>
             <button class="btn" onClick="numberPressed(8)">8</button>
             <button class="btn" onClick="numberPressed(9)">9</button>
-            <button class="btn" onClick="operationPressed('/')">&divide;</button>
+            <button class="btn" onClick="operationPressed('/')"><svg width="20" height="20"><use href="icons.svg#icon-divide"/></svg></button>
 
             <button class="btn" onClick="numberPressed(4)">4</button>
             <button class="btn" onClick="numberPressed(5)">5</button>
             <button class="btn" onClick="numberPressed(6)">6</button>
-            <button class="btn" onClick="operationPressed('*')">x</button>
+            <button class="btn" onClick="operationPressed('*')"><svg width="20" height="20"><use href="icons.svg#icon-multiply"/></svg></button>
 
             <button class="btn" onClick="numberPressed(1)">1</button>
             <button class="btn" onClick="numberPressed(2)">2</button>
             <button class="btn" onClick="numberPressed(3)">3</button>
-            <button class="btn" onClick="operationPressed('-')">-</button>
+            <button class="btn" onClick="operationPressed('-')"><svg width="20" height="20"><use href="icons.svg#icon-minus"/></svg></button>
 
             <button class="btn" onClick="numberPressed(0)">0</button>
             <button class="btn" onClick="decimalPressed()">.</button>
-            <button class="btn" onClick="operationPressed('+')">+</button>
-            <button class="btn" onClick="equalPressed()">=</button>
+            <button class="btn" onClick="operationPressed('+')"><svg width="20" height="20"><use href="icons.svg#icon-plus"/></svg></button>
+            <button class="btn" onClick="equalPressed()"><svg width="20" height="20"><use href="icons.svg#icon-equals"/></svg></button>
 
             <!-- TODO: Buttons -->
-            <button class="btn span-4" onClick="toggleSignPressed()">+/-</button>
-            <button class="btn span-4" onClick="percentPressed()">%</button>
+            <button class="btn span-4" onClick="toggleSignPressed()"><svg width="20" height="20"><use href="icons.svg#icon-sign"/></svg></button>
+            <button class="btn span-4" onClick="percentPressed()"><svg width="20" height="20"><use href="icons.svg#icon-percent"/></svg></button>
             <!-- add a button for a power (or exponential) function -->
-            <button class="btn span-4" onClick="powerPressed()">^</button>
+            <button class="btn span-4" onClick="powerPressed()"><svg width="20" height="20"><use href="icons.svg#icon-power"/></svg></button>
             <!-- add a button for a square root function -->
-            <button class="btn span-4" onClick="squareRootPressed()">&#8730;</button>
+            <button class="btn span-4" onClick="squareRootPressed()"><svg width="20" height="20"><use href="icons.svg#icon-sqrt"/></svg></button>
             <!-- add a button for a backspace function -->
-            <button class="btn span-4" onClick="backspacePressed()">&#9003;</button>
-            
+            <button class="btn span-4" onClick="backspacePressed()"><svg width="20" height="20"><use href="icons.svg#icon-backspace"/></svg></button>
+
           </div>
         </div>
       </div>
