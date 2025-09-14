@@ -1,3 +1,32 @@
+body.dark-mode {
+    background: linear-gradient(135deg, #18181b 0%, #27272a 100%);
+    color: #f4f4f5;
+}
+
+body.dark-mode .container {
+    background: linear-gradient(120deg, #27272a 0%, #18181b 100%);
+    box-shadow: 0 12px 36px 0 rgba(0,0,0,0.45);
+}
+
+body.dark-mode #result {
+    background: linear-gradient(90deg, #27272a 0%, #18181b 100%);
+    color: #f4f4f5;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
+}
+
+body.dark-mode .btn {
+    background: linear-gradient(135deg, #3f3f46 0%, #52525b 100%);
+    color: #f4f4f5;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.18);
+}
+
+body.dark-mode .btn:hover {
+    background: linear-gradient(135deg, #52525b 0%, #71717a 100%);
+}
+
+body.dark-mode .btn:active {
+    background: linear-gradient(135deg, #27272a 0%, #3f3f46 100%);
+}
 BODY {
     height: 100%;
     width: 100%;
