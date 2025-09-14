@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/></symbol>
+  <symbol id="icon-minus" viewBox="0 0 24 24"><path d="M19 13H5V11H19V13Z"/></symbol>
+  <symbol id="icon-multiply" viewBox="0 0 24 24"><path d="M18.3 5.71L12 12L5.71 5.71L4.29 7.12L10.59 13.41L4.29 19.71L5.71 21.12L12 14.83L18.3 21.12L19.71 19.71L13.41 13.41L19.71 7.12L18.3 5.71Z"/></symbol>
+  <symbol id="icon-divide" viewBox="0 0 24 24"><path d="M7 11H17V13H7V11ZM12 7C12.55 7 13 6.55 13 6C13 5.45 12.55 5 12 5C11.45 5 11 5.45 11 6C11 6.55 11.45 7 12 7ZM12 19C12.55 19 13 18.55 13 18C13 17.45 12.55 17 12 17C11.45 17 11 17.45 11 18C11 18.55 11.45 19 12 19Z"/></symbol>
+  <symbol id="icon-equals" viewBox="0 0 24 24"><path d="M7 15H17V17H7V15ZM7 11H17V13H7V11Z"/></symbol>
+  <symbol id="icon-percent" viewBox="0 0 24 24"><path d="M18.65 6.35L17.24 4.94L6.35 15.83L7.76 17.24L18.65 6.35ZM7 7C8.1 7 9 7.9 9 9C9 10.1 8.1 11 7 11C5.9 11 5 10.1 5 9C5 7.9 5.9 7 7 7ZM17 13C18.1 13 19 13.9 19 15C19 16.1 18.1 17 17 17C15.9 17 15 16.1 15 15C15 13.9 15.9 13 17 13Z"/></symbol>
+  <symbol id="icon-power" viewBox="0 0 24 24"><path d="M16 9V7H8V9H16ZM12 17C14.76 17 17 14.76 17 12H15C15 13.66 13.66 15 12 15C10.34 15 9 13.66 9 12H7C7 14.76 9.24 17 12 17Z"/></symbol>
+  <symbol id="icon-sqrt" viewBox="0 0 24 24"><path d="M7 15L10 18L17 7"/></symbol>
+  <symbol id="icon-backspace" viewBox="0 0 24 24"><path d="M20 7.41L18.59 6L12 12.59L5.41 6L4 7.41L10.59 14L4 20.59L5.41 22L12 15.41L18.59 22L20 20.59L13.41 14L20 7.41Z"/></symbol>
+  <symbol id="icon-sign" viewBox="0 0 24 24"><path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/></symbol>
+</svg>
